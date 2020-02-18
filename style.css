@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #252323;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: white
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#menu a{
+    margin: 2rem;
+    text-decoration: none;
+    color: #fff;
+ }
+
+#header{
+    text-align: center;
+    height: 75vh;
+}
+
+
+#estudiante{
+    
+}
+
+.flecha{
+    width: 3rem;
+    filter: invert();
+}
+
+#flechaA{
+    width: 3rem;
+    filter: saturate();
+}
+
+#descripcion{
+    
+    /* background-color: #0F295D; */
+    background-color: #143c99;
+    height: 35vh;
+}
+
+#descripcion h2{
+    padding: 1.5rem 0;
+}
+
+#descripcion p{
+    padding: 0rem 16rem;
+}
+
+
+
+#enfoque{
+    color: #000;
+    padding: 1.5rem 10rem 0.5rem 10rem;
+    background-color: #fff;
+}
+
+
+
+#elementosE{
+    display: flex;
+    padding: 2.5rem 0 0 0;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+
+.elemento {
+    width: 8rem;
+}
+
+.elementoP{
+    padding: 0.5rem 0 0 0;
+    width: 14rem;
+}
+
+.elementoC{
+    padding: 1rem 0 0 0;
+    width: 18rem;
+}
+
+#proyectosR{
+    padding: 0 0 2rem  0;
+}
+
+#proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+    
+}
+.proyecto {
+    width: 30%;
+    font-size: 0.7rem;
+    text-align: start;
+}
+
+#proyectosR h2{
+    padding: 2rem 0 1.5rem 0;
+}
+
+.proyecto img{
+    
+    width: 100%;
+    margin: 1rem 0 0.2rem 0;
+}
+
+.proyecto a{
+    color: white;
+    font-weight: lighter;
+}
+
+.proyecto img:hover{
+    border: 5px solid #ff3c3c;
+    width: 95%;
+}
+
+.proyecto h3 {
+    display: inline;
+}
+
+.proyecto a h3:hover {
+    color: #ff3c3c;
+    text-decoration: none;
+}
+
+#contactos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0 1rem 0;
+    background-color: #1b1b1b;
+}
+
+#contacto{
+    display: flex;
+    align-items: center;
+}
+
+#icono{
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+    
+    
