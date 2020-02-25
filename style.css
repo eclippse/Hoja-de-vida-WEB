@@ -23,14 +23,20 @@ body{
     color: #fff;
  }
 
-#header{
+#particles-js{
     text-align: center;
     height: 75vh;
+    background-size: cover;
 }
 
 
 #estudiante{
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 8rem auto;
 }
 
 .flecha{
@@ -46,7 +52,7 @@ body{
 #descripcion{
     
     /* background-color: #0F295D; */
-    background-color: #143c99;
+    background-color: #065dff;
     height: 35vh;
 }
 
@@ -55,7 +61,7 @@ body{
 }
 
 #descripcion p{
-    padding: 0rem 16rem;
+    padding: 0rem 10rem;
 }
 
 
